@@ -1,0 +1,41 @@
+cd ~/kafka-streaming-project
+nano .gitignore
+```
+
+**Copie-colle ça dedans :**
+```
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Kafka/Data
+*.log
+*.jsonl
+dead_letter_queue.jsonl
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+*.env
+
+# Database
+*.db
+*.sqlite
